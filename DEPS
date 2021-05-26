@@ -967,7 +967,7 @@ deps = {
   },
 
   'src/third_party/depot_tools':
-    'https://github.com/heyunjiang/depot_tools.git' + '@' + '10cee5f412442cd4872ec9f784b67bac4b8a0db6',
+    'https://github.com/heyunjiang/depot_tools.git',
 
   'src/third_party/devtools-frontend/src':
     Var('chromium_git') + '/devtools/devtools-frontend' + '@' + Var('devtools_frontend_revision'),
